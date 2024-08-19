@@ -1,0 +1,43 @@
+.sidebar {
+    width: 16rem;
+    background-color: #6b46c1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar-header {
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .sidebar-nav {
+    margin-top: 2.5rem;
+  }
+  
+  .nav-item {
+    display: block;
+    padding: 0.625rem 1rem;
+    transition: background-color 0.2s;
+  }
+  
+  .nav-item:hover {
+    background-color: #5a3aa2;
+  }
+  
+  .sidebar-footer {
+    padding: 1rem;
+    background-color: #5a3aa2;
+  }
+  
+  .footer-user {
+    font-size: 0.875rem;
+  }
+  
+  .footer-email {
+    font-size: 0.75rem;
+    color: #dcd9e2;
+  }
+  
